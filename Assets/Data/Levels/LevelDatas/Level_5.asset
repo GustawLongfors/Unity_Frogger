@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69259c5f3f37483dad07a5c6d24912eb, type: 3}
+  m_Name: Level_5
+  m_EditorClassIdentifier: 
+  levelPrefab: {fileID: 855308985253028177, guid: bf49cec4041bd4c9b8716667b7ac1318,
+    type: 3}
+  objectsSpeed: 9
+  standardObstacles:
+  - {fileID: 6109780412829124222, guid: 40a5c595269194e27a111d681e16b447, type: 3}
+  - {fileID: 6109780412829124222, guid: b77f9663f9b29416a81692069cf74072, type: 3}
+  - {fileID: 6109780412829124222, guid: 1d322a3efcba6402e88c9c74a7ac1919, type: 3}
+  specialObstacles: []
+  platforms: []
+  standardSpawnRange: {x: 1, y: 2.5}
+  specialSpawnRange: {x: 0, y: 0}
+  platformsSpawnRange: {x: 0, y: 0}
+  spawnersIds: 010000000b000000050000000f000000
+  levelAmbienceClip: {fileID: 8300000, guid: 2d4a8d45fbda47744a3a4789565d81f3, type: 3}
