@@ -22,8 +22,10 @@ namespace Code.Levels
         public event Action OnLevelStart;
         public event Action OnLastLevelFinished;
 
+        public bool countdownTimerFinished = false;
+
         public ITimer Timer { get; private set; }
-        public ITimer CountdownTimer { get; private set; }
+        public CountdownTimer CountdownTimer { get; private set; }
         
         private void Awake()
         {
@@ -80,11 +82,13 @@ namespace Code.Levels
 
         private void HandleTimers()
         {
+            countdownTimerFinished = false;
             CountdownTimer?.Restart();
         }
 
         private void CountdownTimer_OnStop()
         {
+            countdownTimerFinished = true;
             OnLevelStart?.Invoke();
             Timer?.Restart();
         }

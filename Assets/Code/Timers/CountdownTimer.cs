@@ -70,8 +70,17 @@ namespace Code.Timers
             }
             catch (TaskCanceledException)
             {
-                // We don't do anything here. This will occur when stopping the timer
+            }
+        }
+
+        public bool TimeCheck() {
+            if (remainingTime <= TimeSpan.Zero) {
+                return true;
+            }
+            else {
+                return false;
             }
         }
     }
+
 }

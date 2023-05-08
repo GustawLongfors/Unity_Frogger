@@ -63,5 +63,11 @@ namespace Code.UI.Windows.Gameplay
         {
             timeCounterElement.Reset();
         }
+
+        private void Update() {
+            if (levelsController.countdownTimerFinished == true) {
+                Display.CountdownOverlayActive = false;
+            }
+        }
     }
 }
