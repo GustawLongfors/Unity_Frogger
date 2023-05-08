@@ -39,7 +39,7 @@ Ambient sounds
 https://assetstore.unity.com/packages/audio/ambient/nature/nature-essentials-208227 
 
 Vehicle sounds
-https://assetstore.unity.com/packages/audio/sound-fx/transportation/vehicle-essential s-194951 
+https://assetstore.unity.com/packages/audio/sound-fx/transportation/vehicle-essentials-194951 
 
 Jump and hit sounds
 https://creatorassets.com/ 
